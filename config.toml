@@ -1,8 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "jonah-robinson.github.io"
 
-# set your your own ga token here.
-googleAnalytics = "UA/G-123123-12"
-
+# set your your 
 languageCode = "en-us"
 
 # for using avicenna you need to set the themes to 'avicenna'
@@ -23,4 +21,4 @@ startLevel = 1
 
 [params]
 # it is used for the copy-right section of your page
-name = "YOUR_NAME"
+name = "Jonah Robinson"
