@@ -1,6 +1,6 @@
 baseURL: "jonah-robinson.github.io"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Jonah Robinson"
 theme: hugo-profile
 
 outputs:
@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Jonah Robinson"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -72,7 +72,7 @@ params:
   mathjax: false
 
   # Whether the fade animations on the home page will be enabled
-  animate: true
+  #animate: true
 
   theme:
     # disableThemeToggle: true
@@ -118,7 +118,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: false
       disableProjects: false
       disableAchievements: false
