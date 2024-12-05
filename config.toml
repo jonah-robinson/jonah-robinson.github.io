@@ -35,7 +35,7 @@ title = "Jonah Robinson"
   """
 
   description = "Master's student studying mathematics at Texas A&M University"
-  #footer = "Jonah Robinson"
+  footer = "Contact me: jonahrobinson@tamu.edu"
   metaKeywords = ["blog", "gokarna", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
@@ -46,7 +46,7 @@ title = "Jonah Robinson"
 #    {name = "dribbble", url = "https://example.com"},
 #    {name = "instagram", url = "https://example.com"},
 #    {name = "twitch", url = "https://example.com"},
-    {name = "email", url = "mailto:jonahrobinson@tamu.edu"}
+#    {name = "email", url = "mailto:jonahrobinson@tamu.edu"}
   ]
 
 [menu]
@@ -74,11 +74,11 @@ title = "Jonah Robinson"
     url = "/About/"
     weight = 2
 
- # [[menu.main]]
- #   identifier = "github"
- #   pre = "<span data-feather='github'></span>"
- #   url = "https://github.com/gokarna-theme/gokarna-hugo"
- #   weight = 5
+  [[menu.main]]
+    identifier = "Contact"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/gokarna-theme/gokarna-hugo"
+    weight = 5
 
  # [[menu.main]]
  #   identifier = "buymeacoffee"
