@@ -59,12 +59,12 @@ title = "Jonah Robinson"
   [[menu.main]]
     name = "CV"
     pre = "<span data-feather='book'></span>"
-    url = "mathCVrevised.pdf"
+    url = "CVfinal.pdf"
     weight = 4
 
   [[menu.main]]
     name = "Research"
-    pre = "<span data-feather='code'></span>"
+    pre = "<span data-feather='pencil'></span>"
     url = "/Research/projects"
     weight = 3
 

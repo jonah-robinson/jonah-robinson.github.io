@@ -31,7 +31,7 @@ A discrete periodic operator is defined over an underlying $\Z^d$-periodic graph
 
 This project is an outgrowth of our larger experimental investigation, and is the focus of our current work. Certain questions about the spectrum of a discrete periodic operator may be addressed by understanding the critical points of the Bloch variety. Previous work of Faust and Sottile provides a bound on the number of critical points of the Bloch variety, modulo periodicity. This is in terms of the volume of the Newton polytope of the variety's defining polynomial. Through our experimental work, we developed an finer, structural understanding of the critical points. This has led to an improved bound involving combinatorial features of the underlying graph as well as an analysis of the Bloch variety's asymptotic behavior.
 
-#### Results: Paper currently in perparation
+#### Results: Paper currently in preparation
 
 ## Conference Presentations
 
