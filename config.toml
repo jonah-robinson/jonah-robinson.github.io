@@ -35,7 +35,7 @@ title = "Jonah Robinson"
   """
 
   description = "Master's student studying mathematics at Texas A&M University"
-  footer = "Contact me: jonahrobinson@tamu.edu"
+  footer = "Jonah Robinson"
   metaKeywords = ["blog", "gokarna", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
@@ -75,9 +75,9 @@ title = "Jonah Robinson"
     weight = 2
 
   [[menu.main]]
-    identifier = "Contact"
-    pre = "<span data-feather='github'></span>"
-    url = "https://github.com/gokarna-theme/gokarna-hugo"
+    name = "Contact"
+    pre = "<span data-feather='mail'></span>"
+    url = "mailto:jonahrobinson@tamu.edu"
     weight = 5
 
  # [[menu.main]]
