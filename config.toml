@@ -35,7 +35,7 @@ title = "Jonah Robinson"
   """
 
   description = "Master's student studying mathematics at Texas A&M University"
-  footer = "Jonah Robinson"
+  footer = "Email: jonahrobinson@tamu.edu"
   metaKeywords = ["blog", "gokarna", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
