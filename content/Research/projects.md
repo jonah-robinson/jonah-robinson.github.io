@@ -13,27 +13,35 @@ My work to this point has centered around applications of algebraic geometry to 
 
 #### Mentors: Wencai Liu, Rodrigo Matos, Matthew Faust
 
-"Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+The specific goal of this project was to establish an isospectrality result for discrete Schrödinger operators with complex-valued, periodic potentials, over a sublattice of $\Z^d$ for some d. Under a parity assumption on one of the potential periods, we proved the existence of non-zero, complex-valued potentials for which the corresponding discrete Schrödinger operator is isospectral to the free (zero-potential) Schrödinger operator. This project was partially funded by the Texas A&M College of Arts & Sciences.
 
-This continues at length and variously. The text is not really Greek, but badly garbled Latin. It started life as extracted phrases from sections 1.10.32 and 1.10.33 of Cicero's "De Finibus Bonorum et Malorum" ("The Extremes of Good and Evil"), which read:
+#### Results: [Floquet Isospectrality of the Zero Potential for Discrete Periodic Schrödinger Operators](https://arxiv.org/abs/2401.09731), published in the *The Journal of Mathematical Physics* ; [accompanying Macaulay2 code](https://drive.google.com/file/d/1OXyyPEcY8PhTPz9E2s6CFkFkpnx5wgJm/view?usp=drive_link)
 
-#### Presentations:
-
-#### Publications: 
-
-## Critical point degree of a periodic graph
+## A Bestiary of Bloch Varieties
 
 #### Mentors: Frank Sottile, Matthew Faust
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+A discrete periodic operator is defined over an underlying $\Z^d$-periodic graph and serves as a discrete model of electron transport in a crystal. Its spectrum is encoded by an algebraic hypersurface called its Bloch variety. We utilize tools of computational and combinatorial algebraic geometry to study discrete invariants of Bloch varieties over families of periodic graphs, with the goal of understanding various geometric and asymptotic properties. With the help of Macaulay2 and the Texas A\&M Mathematics Department's computational cluster, we are conducting a large-scale investigation for millions of periodic graphs.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+#### Results: Experimental paper and Macaulay2 package forthcoming
 
-## A bestiary of Bloch varieties
-   
-"Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+## The Critical Point Degree of a Periodic Graph
 
-This continues at length and variously. The text is not really Greek, but badly garbled Latin. It started life as extracted phrases from sections 1.10.32 and 1.10.33 of Cicero's "De Finibus Bonorum et Malorum" ("The Extremes of Good and Evil"), which read:
+#### Mentors: Frank Sottile, Matthew Faust
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+This project is an outgrowth of our larger experimental investigation, and is the focus of our current work. Certain questions about the spectrum of a discrete periodic operator may be addressed by understanding the critical points of the Bloch variety. Previous work of Faust and Sottile provides a bound on the number of critical points of the Bloch variety, modulo periodicity. This is in terms of the volume of the Newton polytope of the variety's defining polynomial. Through our experimental work, we developed an finer, structural understanding of the critical points. This has led to an improved bound involving combinatorial features of the underlying graph as well as an analysis of the Bloch variety's asymptotic behavior.
 
+#### Results: Paper currently in perparation
+
+## Conference Presentations
+
+1. SIAM TX-LA 7-th Annual Meeting, *Minisymposium on Periodic Operators*, October 2024
+    * “The Critical Point Degree of a Periodic Graph”, slides
+2. TEXAS ALGEBRAIC GEOMETRY SYMPOSIUM, April 2024
+    * “Discrete Invariants of the Dispersion Relation”, poster
+3. TX-LA Undergraduate Mathematics Conference, March 2024
+    * “Floquet Isospectrality of the Zero Potential for Discrete Periodic Schrödinger Operators”, slides (joint)
+4. SIAM TX-LA 6-th Annual Meeting, *Minisymposium on Applications of Combinatorial and Computational Algebraic Geometry*, October 2023
+    * “Invariants of the Dispersion Relation for Discrete Periodic Operators”, slides
+5. Joint Mathematics Meetings, *Pi Mu Epsilon Student Poster Session*, January 2023
+    * “Discrete Invariants of the Dispersion Relation”, poster
