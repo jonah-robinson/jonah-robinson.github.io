@@ -64,7 +64,7 @@ title = "Jonah Robinson"
 
   [[menu.main]]
     name = "Research"
-    pre = "<span data-feather='pencil'></span>"
+    pre = "<span data-feather='code'></span>"
     url = "/Research/projects"
     weight = 3
 
